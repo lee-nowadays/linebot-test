@@ -1,7 +1,7 @@
 import 'dotenv/config'
 import linebot from 'linebot'
-import schedule from 'node-schedule'
 import data from './data.js'
+import schedule from 'node-schedule'
 
 data.fetchData()
 
